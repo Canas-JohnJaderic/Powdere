@@ -5,6 +5,7 @@ if float(salary)>=30000.00:
     print("You are elligible for the loan!")
 else:
     print("Unfortunately your salary is too low to avail a loan.")
+    exit()
 
 loan=input("Please Enter the amount that you want to Loan :")
 
